@@ -38,40 +38,35 @@
                     </li> <li class="nav-item">
                         <a class ="nav-link" href="brewing.html">Brewing</a>
                     </li>
-                    <li class="nav-item">
-                        <a class ="nav-link" href="serving.html">Serving</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class ="nav-link" href="#">Connect</a>
-                    </li>
+                   
                 </ul>
         </div>
     </div>    
     </nav>
     <!--Image Slider-->
-    <div id="slides" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <ul class="carousel-indicators">
-            <li data-target="index.htmlslides" data-slide-to="0" class="active"></li>
-            <li data-target="history.htmlslides" data-slide-to="1"></li>
-            <li data-target="plantation.htmlslides" data-slide-to="2"></li>
-            <li data-target="roasting.htmlslides" data-slide-to="3"></li>
-            <li data-target="brewing.htmlslides" data-slide-to="4"></li>
-            <li data-target="serving.htmlslides" data-slide-to="5"></li>
+            <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+            <li data-target="#carouselExampleControls" data-slide-to="2"></li>
+            <li data-target="#carouselExampleControls" data-slide-to="3"></li>
         </ul>
         <div class="carousel-inner">
-            <div class="carousel-item">
-                <img src="images/history.JPG">
+            <div class="carousel-item active">
+                <img src="images/history.jpg">
                 <div class="carousel-caption">
                     <h1 class="display-2">Coffee Store</h1>
                     <h3>All You Want About Coffee</h3>
-                    <button type="button" class="btn btn-outline-light btn-lg">VIEW
-
-                    DEMO</button>
-                    <button type="button" class="btn btn-primary btn-lg">GET STARTED</button>
+                    <button type="button" class="btn btn-primary btn-lg"><a href="history.html">HISTORY</a></button>
+                    <button type="button" class="btn btn-primary btn-lg"><a href="plantation.html">PLANTATION</a></button>
+                    <button type="button" class="btn btn-primary btn-lg"><a href="roasting.html">ROASTING</a></button>
+                    <button type="button" class="btn btn-primary  btn-lg"><a href="brewing.html">BREWING</a></button>
                 </div>
+
+            
             </div>
             <div class="carousel-item" class="active">
-                <img src="images/plantation.WEBP">
+                <img src="images/cover_coffee2.WEBP">
             </div>
             <div class="carousel-item">
                 <img src="images/roasting.WEBP">
@@ -100,7 +95,8 @@
     <div class="container-fluid padding">
         <div class="row welcome text-centre">
             <div class="col-12">
-                <h1 class="display-4">The Escasy Of Knowing More</h1>
+                <h1 class="display-4">The Ecstasy Of Knowing More</h1>
+                <hr class="dark"></hr>
             </div>
             <hr>
             <div class="col-12">
@@ -115,18 +111,18 @@
         <div class="row text-center padding">
             <div class="col-xs-12 col-sm-6 col-md-4">
                 <i class="fas fa-bold"></i>
-                <h3>Create</h3>
+                <h2>Create</h2>
                 <p>Start your own coffee world!!.</p>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
                 <i class="fas fa-bold"></i>
-                <h3>Share</h3>
+                <h2>Share</h2>
                 <p>Share your experience and start building up your family with coffee.</p>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
                 <i class="fas fa-code"></i>
-                <h3>Enhance</h3>
-                <p>Enhane your skills and start your own coffee shop</p>
+                <h2>Enhance</h2>
+                <p>Enhance your skills and start your own coffee shop</p>
             </div>
         </div>
     </div>
@@ -150,25 +146,56 @@
         </div>
     </div>
     <hr class="my-4">
-<!--Connect-->
+<!--Meet Team--> 
 <div class="container-fluid padding">
-    <div class="row text-center padding">
+    <div class="row welcome text-centre">
         <div class="col-12">
-            <h2>Connect Us</h2>
-        </div>
-        <div class="col-12 social padding">
-            <a href="facebook.com/index.html"><i class="fab-fa-facebook"></i></a>
-            <a href="google.com/index.html"><i class="fab-fa-google-plus-g"></i></a>
-            <a href="instagram.com/index.html"><i class="fab-fa-instagram"></i></a>
-            <a href="youtube.com/index.html"><i class="fab-fa-youtube"></i></a>
-            <a href="twitter.com/index.html"><i class="fab-fa-twitter"></i></a>
+            <h1 class="display-4">LET'S SEARCH MORE ON COFFEE</h1>
         </div>
     </div>
 </div>
+<!--Cards-->
+<div class="container-fluid padding">
+    <div class="row padding">
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-imd-top" src="images/plantation.webp">
+                <div class="card-body">
+                    <h4 class="card-title">Plantation</h4>
+                    <p class="card-text">Indian coffee, grown mostly in southern states under monsoon rainfall conditions, is also termed as “Indian monsooned coffee". </p>
+                    <a href="plantation.html" class="btn btn-outline-secondary">More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-imd-top" src="images/croast.jpg">
+                <div class="card-body">
+                    <h4 class="card-title">Roasting</h4>
+                    <p class="card-text">The next step in the process is the roasting of the green coffee</p>
+                    <a href="roasting.html" class="btn btn-outline-secondary">More</a>
+                </div>
+            </div>  
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-imd-top" src="images/images (4).jpeg" height="300px">
+                <div class="card-body">
+                    <h4 class="card-title">Brewing</h4>
+                    <p class="card-text">Coffee can be brewed in several different ways, but these methods fall into four main groups depending on how the water is introduced to the coffee grounds</p>
+                    <a href="brewing.html" class="btn btn-outline-secondary">More</a>
+                </div>
+            </div>  
+        </div>
+    </div>
+
+</div>   
 <footer>
     <div class="container-fluid padding">
         <div class="row text-center">
             <div class="col-md-4">
+                <hr class="light">
+                <h5>Contact Us</h5>
                 <hr class="light"></hr>
                 <p>9605789503</p>
                 <p>gracekallingal17@gmail.com</p>
@@ -179,7 +206,11 @@
                 <hr class="light">
                 <h5>Our Hours</h5>
                 <hr class="light"></hr>
-                <p>Mon - Fri 9:00am to 9:00pm</p>
+                <p>Monday: 9:00am to 9:00pm</p>
+                <p>Tuesday: 9:00am to 9:00pm</p>
+                <p>Wednesday: 9:00am to 9:00pm</p>
+                <p>Thursday: 9:00am to 9:00pm</p>
+                <p>Friday: 9:00am to 9:00pm</p>
             </div>
             <div class="col-md-4">
                 <hr class="light"></hr>
